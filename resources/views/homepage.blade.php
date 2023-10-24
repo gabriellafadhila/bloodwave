@@ -45,5 +45,78 @@
 </div>
 <!-- End Landing Page -->
 
+<!-- Start Home fitur -->
+<div class="bg-red-medium py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4 border border-cream-dark rounded p-4">
+                <dt class="text-base leading-7 text-cream-medium">Pegang Kendali Penuh Donormu</dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-cream-medium sm:text-4xl">Riwayat Donor</dd>
+        </div>
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4 border border-cream-dark rounded p-4">
+                <dt class="text-base leading-7 text-cream-medium">Temukan Event Donor Terdekat</dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-cream-medium sm:text-4xl">Event</dd>
+        </div>
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4 border border-cream-dark rounded p-4">
+                <dt class="text-base leading-7 text-cream-medium">Temukan informasi mengenai kesehatan</dt>
+                <dd class="order-first text-3xl font-semibold tracking-tight text-cream-medium sm:text-4xl">Let's Read</dd>
+        </div>
+        </dl>
+    </div>
+</div>
+<!-- End Home fitur -->
+
+<!-- Start Testimoni -->
+<!-- component -->
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">From the blog</h1>
+
+        <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+            <!-- component -->
+            <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+            <div class="flex justify-center md:justify-end -mt-16">
+                <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div>
+                <h2 class="text-gray-800 text-3xl font-semibold">Design Tools</h2>
+                <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
+            </div>
+            <div class="flex justify-end mt-4">
+                <a href="#" class="text-xl font-medium text-indigo-500">John Doe</a>
+            </div>
+            </div>
+
+            <!-- component -->
+            <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+            <div class="flex justify-center md:justify-end -mt-16">
+                <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div>
+                <h2 class="text-gray-800 text-3xl font-semibold">Design Tools</h2>
+                <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
+            </div>
+            <div class="flex justify-end mt-4">
+                <a href="#" class="text-xl font-medium text-indigo-500">John Doe</a>
+            </div>
+            </div>
+
+            <!-- component -->
+            <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+            <div class="flex justify-center md:justify-end -mt-16">
+                <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div>
+                <h2 class="text-gray-800 text-3xl font-semibold">Design Tools</h2>
+                <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
+            </div>
+            <div class="flex justify-end mt-4">
+                <a href="#" class="text-xl font-medium text-indigo-500">John Doe</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Testimoni -->
 </body>
 </html>

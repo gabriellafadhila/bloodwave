@@ -1,84 +1,54 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
     
+=======
+<html lang="es">
+>>>>>>> bb31f76acb4002df395c6b30b0284badc78be54d
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @vite('resources/css/app.css')
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Bloodwave - Darah Anda, Harapan Mereka</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
 </head>
+<body class="bg-gray-100">
 
-<body>
-    <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+<!-- Header -->
+<header class="bg-red-dark shadow-md">
+    <div class="flex justify-between items-center py-2 px-5 border-b-2 border-grey-200">
+        <div class="flex items-center">
+        <!-- Logo -->
+        <img src="img/logo.png" alt="Bloodwave" class="w-28 h-12 ml-6">
         </div>
-        <!-- Spinner End -->
 
-
-        <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link active">Beranda</a>
-                        <a href="about.html" class="nav-item nav-link">Riwayat Donor</a>
-                        <a href="service.html" class="nav-item nav-link">Event</a>
-                        <a href="menu.html" class="nav-item nav-link">Let's Read</a>
-                    </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Daftar Sekarang</a>
-                </div>
-            </nav>
-
-            <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container my-5 py-5">
-                    <div class="row align-items-center g-5">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft">Selamat Datang di<br>Bloodwave</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Satu kantong Darah Selamatkan beribu nyawa<br>Donorkan Darahmu mari berkontribusi untuk sesama</p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Ayo Donor</a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src="img/hero.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Navigasi Bar-->
+        <div class="flex items-center space-x-2">
+        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Beranda</a>
+        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Riwayat Donor</a>
+        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Event</a>
+        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Let's Read</a>
+        <a href="#" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Masuk</a>
+        <a href="#" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Daftar</a>
         </div>
-        <!-- Navbar & Hero End -->
+    </div>
+</header>
+
+<!-- Start Landing Page -->
+<div class="bg-cream-medium">
+    <div class="flex justify-between items-center py-0 px-5">
+        <div class="w-1/2 ml-8">
+            <p class="font-poppins text-red-dark mt-4">Selamat Datang di</p>
+            <h2 class="text-5xl font-semibold text-red-dark mt-4">BLOODWAVE</h2>
+            <p class="font-poppins text-red-dark mt-4">Satu kantong Darah Selamatkan beribu nyawa <br>Donorkan Darahmu mari berkontribusi untuk sesama</p>
+            <button class="mt-4 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm rounded-lg px-4 py-2">AYO DONOR</button>
+        </div>
+        <div class="w-1/4">
+            <img src="img/hero.png" alt="" class="w-48 h-auto">
+        </div>
+    </div>
+</div>
+<!-- End Landing Page -->
+
 </body>
 </html>

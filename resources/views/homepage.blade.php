@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-    
-=======
-<html lang="es">
->>>>>>> bb31f76acb4002df395c6b30b0284badc78be54d
+<html lang="en"> <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,7 +70,6 @@
 <!-- component -->
 <section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">From the blog</h1>
 
         <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
             <!-- component -->

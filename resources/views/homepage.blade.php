@@ -34,9 +34,9 @@
     <div class="flex justify-between items-center py-0 px-5">
         <div class="w-1/2 ml-8">
             <p class="font-poppins text-red-dark mt-4">Selamat Datang di</p>
-            <h2 class="text-5xl font-poppins-extra bold text-red-dark mt-4">BLOODWAVE</h2>
+            <h2 class="text-5xl font-semibold text-red-dark mt-4">BLOODWAVE</h2>
             <p class="font-poppins text-red-dark mt-4">Satu kantong Darah Selamatkan beribu nyawa <br>Donorkan Darahmu mari berkontribusi untuk sesama</p>
-            <button class="mt-4 bg-red-dark text-cream-medium font-poppins-semibold rounded-lg text-sm rounded-lg px-4 py-2">AYO DONOR</button>
+            <button class="mt-4 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm rounded-lg px-4 py-2">AYO DONOR</button>
         </div>
         <div class="w-1/4">
             <img src="img/hero.png" alt="" class="w-48 h-auto">
@@ -44,5 +44,6 @@
     </div>
 </div>
 <!-- End Landing Page -->
+
 </body>
 </html>

@@ -1,17 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-<<<<<<< HEAD
-  content:[],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-=======
   content: [
-    "./resources/**/*.blade.php",
-    "./resources/**/*.js",
-    "./resources/**/*.vue",
+    "./resources/*/.blade.php",
+    "./resources/*/.js",
+    "./resources/*/.vue",
   ],
   theme: {
     extend: {
@@ -33,6 +25,3 @@ export default {
   plugins: [],
     },
   }
->>>>>>> bb31f76acb4002df395c6b30b0284badc78be54d
-
-

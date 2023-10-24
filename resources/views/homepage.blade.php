@@ -1,5 +1,10 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en">
+    
+=======
 <html lang="es">
+>>>>>>> bb31f76acb4002df395c6b30b0284badc78be54d
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -3,10 +3,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
 @vite('resources/css/app.css')
 <style>@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css')</style>
+<style>
+        /* CSS Kustom untuk Shadow pada Border */
+        .shadow-border {
+            border: 2px solid #ccc; /* Atur border dengan warna dan lebar sesuai kebutuhan */
+        }
+        .shadow-border:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Atur shadow pada border ketika dihover */
+        }
+</style>
 
-<!-- Header -->
+
 <header class="bg-cream-medium shadow-md border-b-2 border-cream-medium">
-    <div class="flex justify-between items-center py-2 px-5">
+    <div class="flex justify-between items-center py-2 px-5 border-b border-red-dark shadow-border">
         <div class="flex items-center">
         <!-- Logo -->
         <img src="img/logomerah.png" alt="Bloodwave" class="w-15 h-10 ml-4">

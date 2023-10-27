@@ -13,7 +13,6 @@
         }
 </style>
 
-
 <header class="bg-cream-medium shadow-md border-b-2 border-cream-medium">
     <div class="flex justify-between items-center py-2 px-5 border-b border-red-dark shadow-border">
         <div class="flex items-center">

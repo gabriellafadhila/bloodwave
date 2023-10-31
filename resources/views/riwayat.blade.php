@@ -70,8 +70,62 @@
 <!-- Box Welcome End-->
 
 <!-- Recent Donor Start-->
-<div class ="flex justify-center gap-32 px-4 py-4">
-    <div class="p-4">
+<div class ="flex flex-row md:max-w-2xl mx-auto gap-5 w-full justify-center">
+    <div class="bg-white p-4 w-full rounded-md text-center">
+    <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
+        <div>
+            <span>Donor Terakhir</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
+            <div class="px-2 flex">
+                <span>Sabtu, 07 Oktober 2023 </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
+        <div class="px-2">
+            <span>18.00 WIB</span>
+        </div>
+    </div>
+
+    <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
+        <div class="px-2">
+            <span>RS Jaya Medika</span>
+        </div>
+    </div>
+    </div>
+    <div class="bg-white p-4 w-full rounded-md text-center">
+        <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
+            <div>
+                <span>Donor Terakhir</span>
+            </div>
+        </div>
+
+        <div>
+            <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
+                <div class="px-2 flex">
+                    <span>Sabtu, 07 Oktober 2023 </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
+            <div class="px-2">
+                <span>18.00 WIB</span>
+            </div>
+        </div>
+
+        <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
+            <div class="px-2">
+                <span>RS Jaya Medika</span>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="p-4 w-fit bg-slate-600">
         <div class="bg-white p-4 rounded-md text-center">
             <div>
                 <div>
@@ -105,43 +159,43 @@
             </div>
         </div>
     </div>
-</div>
-
-<div class="p-4">
-        <div class="bg-white p-4 rounded-md text-center">
-            <div>
+    <div class="p-4 w-fit bg-slate-600">
+            <div class="bg-white p-4 rounded-md text-center">
                 <div>
                     <div>
-                        <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
-                            <div>
-                                <span>Donor Terakhir</span>
+                        <div>
+                            <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
+                                <div>
+                                    <span>Donor Terakhir</span>
+                                </div>
+                            </div>
+    
+                        <div>
+                            <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
+                                <div class="px-2 flex">
+                                    <span>Selasa, 07 November 2023 </span>
+                                </div>
                             </div>
                         </div>
-
-                    <div>
-                        <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
-                            <div class="px-2 flex">
-                                <span>Selasa, 07 November 2023 </span>
+    
+                            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
+                                <div class="px-2">
+                                    <span>18.00 WIB</span>
+                                </div>
                             </div>
-                        </div>
+    
+                            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
+                                <div class="px-2">
+                                    <span>RS Terdekat</span>
+                                </div>
+                            </div>
                     </div>
-
-                        <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                            <div class="px-2">
-                                <span>18.00 WIB</span>
-                            </div>
-                        </div>
-
-                        <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                            <div class="px-2">
-                                <span>RS Terdekat</span>
-                            </div>
-                        </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
+
 
 <!-- Recent Donor End-->
 
@@ -278,9 +332,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-300">
+        <div class="bg-red-dark">
             <div class="container px-5 py-4 mx-auto">
-                <p class="text-sm text-gray-700 capitalize xl:text-center">© 2023 Bloodwave Present </p>
+                <p class="text-sm text-white capitalize xl:text-center">© 2023 Bloodwave Present </p>
         </div>
     </footer>
 </div>

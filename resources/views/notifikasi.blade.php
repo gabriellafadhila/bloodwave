@@ -16,102 +16,55 @@
         </div>
     </div>
 </header>
-<div class="overflow-x-hidden bg-cream-medium">
-    <nav class="px-6 py-4 bg-cream-medium shadow">
-    </nav>
-</div class="bg-cream-medium">
-    <div class="px-6 py-8 bg-cream-medium">
-        <div class="container flex justify-between mx-auto">
-            <div class="w-full lg:w-12/12">
-                <div class="mt-6">
-                    <div class="max-w-4xl px-10 py-6 mx-auto bg-red-dark rounded-lg shadow-md">
-                        <div>
-                        <div class="flex">
-                        <div class="mt-10">
-                            <a href="#" class="text-2xl  font-bold text-white hover:underline">Hai Allisa</a>
-                            <p class="mt-2 text-white">Yuk Cek Kondisi Kesehatanmu!</p>
+<div style="background-image: url('/img/abc.png');" class="flex items-center justify-center bg-gradient-to-t h-screen p-6 bg-cover bg-no-repeat bg-center w-full">
+        <div class="w-full md:w-1/2 lg:w-1/3">
+            <div class="flex flex-col space-y-4">
+                <div>
+                    <h2 class="uppercase text-white font-bold text-center text-2xl">Notifikasi</h2>
+                </div>
+                <!-- Item -->
+                <div class="flex justify-between py-6 px-4 bg-white/70 rounded-lg">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex flex-col space-y-1">
+                            <span class="font-bold">Allisa</span>
+                            <span class="text-sm">Silahkan kembali donor darah pada 2023-09-07</span>
                         </div>
-                        <div class="relative h-32 w-32 ..."> 
-                        <div class="absolute inset-y-0 right-19 w-16 ..."><img src="/img/hero.png" alt=""></div> 
-                        </div>
-                    </div>
                     </div>
                 </div>
-                <!-- component -->
-    <section class="text-gray-600 body-font flex justify-center items-center">
-    <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap -m-4 text-center">
-        <div class="p-4 sm:w-1/2 lg:w-1/2 w-full hover:scale-105 duration-500">
-            <div class=" flex items-center  justify-between p-4  rounded-lg bg-white shadow-indigo-50 shadow-md">
-            <div>
-                <h2 class="text-gray-900  font-bold text-center">Golongan Darah</h2>
-                <h3 class="mt-2 text-3xl font-bold text-red-dark text-center">A</h3>
-            </div>
-            </div>
-
-        </div>
-        <div class="p-4 sm:w-1/2 lg:w-1/2 w-full hover:scale-105 duration-500">
-            <div class=" flex items-center  justify-between p-4  rounded-lg bg-white shadow-indigo-50 shadow-md">
-            <div>
-                <h2 class="text-gray-900  font-bold text-center">Total Donor</h2>
-                <h3 class="mt-2 text-3xl font-bold text-red-dark text-center">9</h3>
-            </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-<!-- component -->
-<div class="container mx-auto p-4 lg:h-screen flex items-center justify-center">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-            <!-- Blog Entry 1 -->
-            <div class="max-w-sm mx-auto relative shadow-md rounded-lg cursor-pointer">
-              <img src="/img/profil.png" alt="" class="w-full h-auto object-cover rounded-lg">
-              <div class="absolute bottom-0 left-0 right-0 h-40 bg-red-dark bg-opacity-75 backdrop-blur text-white p-4 rounded-b-lg">
-                <h1 class="text-2xl font-semibold text-center">Donor Terakhir</h1>
-                <p class="mt-2 text-center">Sabtu, 07 Oktober 2023</p>
-                <p class="mt-2 text-center">18.00 WIB</p>
-                <p class="mt-2 text-center">RS Jaya Medika</p>
-              </div>
-            </div>
-
-            <!-- Blog Entry 2 -->
-            <div class="max-w-sm mx-auto relative shadow-md rounded-lg cursor-pointer">
-              <img src="/img/profil.png" alt="" class="w-full h-auto object-cover rounded-lg">
-              <div class="absolute bottom-0 left-0 right-0 h-40 bg-red-dark bg-opacity-75 backdrop-blur text-white p-4 rounded-b-lg">
-              <h1 class="text-2xl font-semibold text-center">Donor Kembali</h1>
-                <p class="mt-2 text-center">Selasa, 07 November 2023</p>
-                <p class="mt-2 text-center">18.00 WIB</p>
+                <!-- Item -->
+                <!-- Item -->
+                <div class="flex justify-between py-6 px-4 bg-white/70 rounded-lg">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex flex-col space-y-1">
+                            <span class="font-bold">Allisa</span>
+                            <span class="text-sm">Berhasil memasukkan riwayat donor pada 2023-10-07</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
+                <!-- Item -->
+                <div class="flex justify-between py-6 px-4 bg-white/70 rounded-lg">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex flex-col space-y-1">
+                            <span class="font-bold">Allisa</span>
+                            <span class="text-sm">Hallo Allisa!, jangan lupa donor darah besok ya!</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
+                <!-- Item -->
+                  <div class="flex justify-between py-6 px-4 bg-white/70 rounded-lg">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex flex-col space-y-1">
+                            <span class="font-bold">Allisa</span>
+                            <span class="text-sm">Akun Anda terdeteksi login pada 2023-10-01 via IP 10.200.33.70 app client : Mozilla/5.0 (Windows NT 10.0; Win65; x64) AppleWebKit/537.36...</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
             </div>
         </div>
     </div>
-</div>
-
-   <!-- component -->
-    <div class="max-w-md mx-auto bg-red-medium rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
-    <div class="p-8">
-        <div class="tracking-wide text-2xl text-white font-semibold text-center">Riwayat Donor</div>
-    </div>
-    </div>
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
-    <div class="p-8">
-        <div class="tracking-wide text-medium text-red-dark -500 font-bold">RS Maju Jaya</div>
-        <p class="block mt-1 text-lg leading-tight text-black">Jumat, 7 Juli 2023, 15.00 WIB</p>
-    </div>
-    </div>
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
-    <div class="p-8">
-        <div class="tracking-wide text-medium text-red-dark -500 font-bold">PMI Jayabaya</div>
-        <p class="block mt-1 text-lg leading-tight text-black">Senin, 7 Agustus 2023, 15.00 WIB</p>
-    </div>
-    </div>
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
-    <div class="p-8">
-        <div class="tracking-wide text-medium text-red-dark -500 font-bold">RSUK</div>
-        <p class="block mt-1 text-lg leading-tight text-black">Kamis, 7 September 2023, 15.00 WIB</p>
-    </div>
-    </div>
-    
     <!-- Start Footer -->
     <footer class="w-full text-gray-700 bg-red-dark body-font">
         <div
@@ -221,4 +174,3 @@
                 <p class="text-sm text-gray-700 capitalize xl:text-center">© 2023 Bloodwave Present </p>
         </div>
     </footer>
-</div>

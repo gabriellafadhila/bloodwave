@@ -32,3 +32,7 @@ Route::get('/loginpage', function () {
 Route::get('/profil', function () {
     return view('profil');
 });
+
+Route::get('/notifikasi', function () {
+    return view('notifikasi');
+});

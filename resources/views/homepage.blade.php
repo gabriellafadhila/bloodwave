@@ -11,7 +11,7 @@
 
 <!-- Header -->
 <header class="bg-red-dark shadow-md">
-    <div class="flex justify-between items-center py-2 px-5 border-b-2 border-grey-200">
+    <div class="flex justify-between items-center py-2 px-5 border-b-2 border-cream-dark">
         <div class="flex items-center">
         <!-- Logo -->
         <img src="img/logo.png" alt="Bloodwave" class="w-28 h-12 ml-6">

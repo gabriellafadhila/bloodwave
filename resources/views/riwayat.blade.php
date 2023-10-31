@@ -31,15 +31,41 @@
 <!-- Navigasi Bar Start-->
 
 <!-- Box Welcome Start-->
-<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
+<div class="max-w-md mx-auto bg-red-medium rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
     <div class="md:flex">
         <div class="p-8">
-        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Event Name</div>
-        <p class="block mt-1 text-lg leading-tight font-medium text-black">Event Description</p>
-        <p class="mt-2 text-gray-500">Event Details...</p>
+            <h2 class="text-5xl font-semibold text-cream-dark mt-4">Hai, Allisa!</h2>
+            <p class="font-poppins text-cream-dark mt-4">Masukkan riwayat donor anda</p>
+            
+            <div class="flex gap-32">
+                <form action="">
+                    <div class="py-1">
+                        <span class="px-1 text-sm text-cream-medium">Username</span>
+                        <input placeholder="" type="text" class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-cream-medium shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
+                    </div>
+                    <div class="py-1">
+                        <span class="px-1 text-sm text-cream-medium">Email </span>
+                        <input placeholder="" type="email" class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-cream-medium shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
+                    </div>
+                    <div class="py-1">
+                        <span class="px-1 text-sm text-cream-medium">Password</span>
+                        <input placeholder="" type="password" x-model="password" class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-cream-medium  placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
+                    </div>
+                </form>
+                
+    
+                    <label class="w-72 h-32 flex flex-col items-center px-4 py-6 bg-white text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white">
+                        <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
+                        </svg>
+                        <span class="mt-2 text-base leading-normal">Select a file</span>
+                        <input type='file' class="hidden" />
+
+                    </label>
+            </div>
         </div>
     </div>
-    </div>
+</div>
 
 
 

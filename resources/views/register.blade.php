@@ -22,10 +22,10 @@
 
         <!-- Navigasi Bar-->
         <div class="flex items-center space-x-2">
-        <a href="#" class="px-2 py-2 bg-read-dark text-red-dark font-semibold hover:text-white rounded-lg text-sm">Beranda</a>
-        <a href="#" class="px-2 py-2 bg-read-dark text-red-dark font-semibold hover:text-white rounded-lg text-sm">Riwayat Donor</a>
-        <a href="#" class="px-2 py-2 bg-read-dark text-red-dark font-semibold hover:text-white rounded-lg text-sm">Event</a>
-        <a href="#" class="px-2 py-2 bg-read-dark text-red-dark font-semibold hover:text-white rounded-lg text-sm">Let's Read</a>
+        <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Beranda</a>
+        <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Riwayat Donor</a>
+        <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Event</a>
+        <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Let's Read</a>
         <a href="#" class="px-2 py-2 bg-red-dark text-white hover:bg-cream-dark font-bold rounded-lg text-sm">Masuk</a>
         </div>
     </div>

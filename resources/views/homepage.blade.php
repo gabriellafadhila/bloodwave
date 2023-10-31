@@ -103,6 +103,7 @@
 <section class="bg-cream-medium">
     <div class="container px-6 py-10 mx-auto">
     <span class="font-semibold text-3xl text-red-medium mb-2 block text-center">Kata Mereka</span>
+    <p class="font-poppins text-red-dark mt-4 text-center">Kesan Pesan Menjadi Keluarga Bloodwave</p>
         <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
             <!-- component -->
             <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">

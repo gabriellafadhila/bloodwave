@@ -28,3 +28,7 @@ Route::get('/homepage', function () {
 Route::get('/loginpage', function () {
     return view('loginpage');
 });
+
+Route::get('/profil', function () {
+    return view('profil');
+});

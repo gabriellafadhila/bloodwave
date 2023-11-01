@@ -35,6 +35,18 @@ Route::get('/homepage', function () {
     return view('homepage');
 });
 
+Route::get('/loginpage', function () {
+    return view('loginpage');
+});
+
+Route::get('/profil', function () {
+    return view('profil');
+});
+
+Route::get('/notifikasi', function () {
+    return view('notifikasi');
+});
+
 Route::get('/letsread', function () {
     return view('letsread');
 });
@@ -42,3 +54,4 @@ Route::get('/letsread', function () {
 Route::get('/event', function () {
     return view('event');
 });
+

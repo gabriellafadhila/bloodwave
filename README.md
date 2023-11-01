@@ -7,19 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Bloodwave
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center"><a href="" target="_blank"><img src="" width="400" alt="BloodWave Logo"></a></p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+"BloodWave" adalah sebuah platform online yang inovatif dan berfungsi sebagai alat yang sangat berguna dalam mendukung dan meningkatkan kegiatan donor darah. Adanya “BloodWave” dilatar belakangi oleh kebutuhan mendesak akan manajemen donor darah yang lebih efisien dan meningkatkan partisipasi dalam kegiatan donor darah. Dengan berbagai fitur canggihnya, website ini memungkinkan para donor darah untuk dengan mudah mengelola profil pribadi mereka, melacak riwayat donasi darah, dan bahkan mengikuti berbagai event donor darah yang akan datang. Selain itu, pengguna juga dapat mengakses artikel-artikel informatif tentang donor darah melalui fitur "Let's Read", yang membantu dalam memberikan pemahaman lebih mendalam tentang proses donasi darah.
 
 ## Learning Laravel
 

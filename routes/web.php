@@ -14,6 +14,14 @@ use App\Http\Controllers\AuthController;
 |
 */
 
+Route::get('/simpan', function () {
+    return view('simpan');
+});
+
+Route::get('/riwayat', function () {
+    return view('riwayat');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });

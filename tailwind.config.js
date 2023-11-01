@@ -8,7 +8,6 @@ export default {
     './components/*/.{html,js}',
     "./resources/views/**/*.blade.php",
     "./resources/js/**/*.js",
-
   ],
   theme: {
     extend: {
@@ -25,7 +24,7 @@ export default {
         fontFamily: {
           'poppins': ['Poppins', 'sans-serif']
         }
-  
+
   },
   plugins: [],
     },

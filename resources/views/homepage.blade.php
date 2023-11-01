@@ -65,8 +65,10 @@
         <div class="flex flex-wrap -mx-4">
             <div class="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
-                    <div class="w-[70px] h-[70px] flex items-center justify-center">
-                        <img src="img/donor.png" alt="" class="w-48 h-auto ">
+                    <div class="w-full flex justify-end">
+                        <div class="w-[70px] h-[70px] flex items-center justify-center">
+                            <img src="img/donor.png" alt="" class="w-48 h-auto ">
+                        </div>
                     </div>
                     <h4 class="font-semibold text-xl text-red-dark mb-3">Riwayat Donor</h4>
                     <p class="text-red-dark">Pegang Kendali Penuh Donor</p>
@@ -75,8 +77,10 @@
 
         <div class="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
-                    <div class="w-[70px] h-[70px] flex items-center justify-center">
-                        <img src="img/event.png" alt="" class="w-48 h-auto">
+                <div class="w-full flex justify-end">
+                        <div class="w-[70px] h-[70px] flex items-center justify-center">
+                            <img src="img/event.png" alt="" class="w-48 h-auto ">
+                        </div>
                     </div>
                     <h4 class="font-semibold text-xl text-red-dark mb-3">Event</h4>
                     <p class="text-red-dark">Temukan Event Donor Terdekat</p>
@@ -85,9 +89,11 @@
 
         <div class="w-full md:w-1/2 lg:w-1/3 px-4">
                 <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
-                <div class="w-[70px] h-[70px] flex items-center justify-center">
-                <img src="img/artikel.png" alt="" class="w-48 h-auto">
-                </div>
+                <div class="w-full flex justify-end">
+                        <div class="w-[70px] h-[70px] flex items-center justify-center">
+                            <img src="img/artikel.png" alt="" class="w-48 h-auto ">
+                        </div>
+                    </div>
                     <h4 class="font-semibold text-xl text-red-dark mb-3">Let’s Read</h4>
                     <p class="text-red-dark">Temukan informasi mengenai kesehatan</p>
                 </div>

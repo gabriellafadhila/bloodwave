@@ -4,16 +4,17 @@
     <div class="flex justify-between items-center py-2 px-5 border-b-2 border-grey-200">
         <div class="flex items-center">
         <!-- Logo -->
-        <img src="img/logo.png" alt="Bloodwave" class="w-28 h-12 ml-6">
+        <img src="img/logo.png" alt="Bloodwave" class="w-15 h-10 ml-4">
         </div>
 
-        <!-- Navigasi Bar-->
-        <div class="flex items-center space-x-2">
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Beranda</a>
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Riwayat Donor</a>
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Event</a>
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Let's Read</a>
-        </div>
+         <!-- Navigasi Bar-->
+       <div class="flex items-center space-x-2">
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Beranda</a>
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Riwayat Donor</a>
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Event</a>
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Let's Read</a>
+        <a href="#" class="px-2 py-2 bg-white text-red-dark hover:bg-cream-dark font-bold rounded-lg text-sm">Keluar</a>
+    </div>
     </div>
 </header>
 <div style="background-image: url('/img/abc.png');" class="flex items-center justify-center bg-gradient-to-t h-screen p-6 bg-cover bg-no-repeat bg-center w-full">
@@ -169,8 +170,8 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-300">
+        <div class="bg-red-dark">
             <div class="container px-5 py-4 mx-auto">
-                <p class="text-sm text-gray-700 capitalize xl:text-center">© 2023 Bloodwave Present </p>
+                <p class="text-sm text-white capitalize xl:text-center">© 2023 Bloodwave Present </p>
         </div>
     </footer>

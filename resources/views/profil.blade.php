@@ -4,29 +4,31 @@
     <div class="flex justify-between items-center py-2 px-5 border-b-2 border-grey-200">
         <div class="flex items-center">
         <!-- Logo -->
-        <img src="img/logo.png" alt="Bloodwave" class="w-28 h-12 ml-6">
+        <img src="img/logo.png" alt="Bloodwave" class="w-15 h-10 ml-4">
         </div>
 
-        <!-- Navigasi Bar-->
-        <div class="flex items-center space-x-2">
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Beranda</a>
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Riwayat Donor</a>
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Event</a>
-        <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Let's Read</a>
-        </div>
+         <!-- Navigasi Bar-->
+       <div class="flex items-center space-x-2">
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Beranda</a>
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Riwayat Donor</a>
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Event</a>
+        <a href="#" class="px-2 py-2 text-white font-semibold hover:text-cream-dark rounded-lg text-sm">Let's Read</a>
+        <a href="#" class="px-2 py-2 bg-white text-red-dark hover:bg-cream-dark font-bold rounded-lg text-sm">Keluar</a>
+    </div>
     </div>
 </header>
 <div class="overflow-x-hidden bg-cream-medium">
     <nav class="px-6 py-4 bg-cream-medium shadow">
     </nav>
+
 </div class="bg-cream-medium">
     <div class="px-6 py-8 bg-cream-medium">
         <div class="container flex justify-between mx-auto">
             <div class="w-full lg:w-12/12">
                 <div class="mt-6">
-                    <div class="max-w-4xl px-10 py-6 mx-auto bg-red-dark rounded-lg shadow-md">
+                    <div class="max-w-4xl px-10 py-6 mx-auto bg-red-dark rounded-lg shadow-md  hover:scale-105 duration-500">
                         <div>
-                        <div class="flex">
+                        <div class="flex justify-between">
                         <div class="mt-10">
                             <a href="#" class="text-2xl  font-bold text-white hover:underline">Hai Allisa</a>
                             <p class="mt-2 text-white">Yuk Cek Kondisi Kesehatanmu!</p>
@@ -37,24 +39,23 @@
                     </div>
                     </div>
                 </div>
-                <!-- component -->
+    <!-- component -->
     <section class="text-gray-600 body-font flex justify-center items-center">
-    <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap -m-4 text-center">
-        <div class="p-4 sm:w-1/2 lg:w-1/2 w-full hover:scale-105 duration-500">
-            <div class=" flex items-center  justify-between p-4  rounded-lg bg-white shadow-indigo-50 shadow-md">
-            <div>
-                <h2 class="text-gray-900  font-bold text-center">Golongan Darah</h2>
-                <h3 class="mt-2 text-3xl font-bold text-red-dark text-center">A</h3>
+    <div class="container px-5 py-5 mx-auto">
+        <div class="flex justify-center -m-4 text-center ">
+        <div class="p-4 w-1/3 hover:scale-105 duration-500">
+            <div class=" flex items-center  justify-between p-4  rounded-lg bg-red-dark shadow-indigo-50 shadow-md">
+            <div class="flex flex-col justify-center w-full">
+                <h2 class="text-white  font-bold text-center">Golongan Darah</h2>
+                <h3 class="mt-2 text-3xl font-bold text-white text-center">A</h3>
             </div>
             </div>
-
         </div>
-        <div class="p-4 sm:w-1/2 lg:w-1/2 w-full hover:scale-105 duration-500">
-            <div class=" flex items-center  justify-between p-4  rounded-lg bg-white shadow-indigo-50 shadow-md">
-            <div>
-                <h2 class="text-gray-900  font-bold text-center">Total Donor</h2>
-                <h3 class="mt-2 text-3xl font-bold text-red-dark text-center">9</h3>
+        <div class="p-4 w-1/3 hover:scale-105 duration-500">
+            <div class=" flex items-center  justify-between p-4  rounded-lg bg-red-dark shadow-indigo-50 shadow-md">
+            <div class="flex flex-col justify-center w-full">
+                <h2 class="text-white  font-bold text-center">Total Donor</h2>
+                <h3 class="mt-2 text-3xl font-bold text-white text-center">9</h3>
             </div>
             </div>
         </div>
@@ -62,10 +63,10 @@
         </div>
     </section>
 <!-- component -->
-<div class="container mx-auto p-4 lg:h-screen flex items-center justify-center">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+<div class="container mx-auto p-4 lg:h-fit flex items-center justify-center ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 ">
             <!-- Blog Entry 1 -->
-            <div class="max-w-sm mx-auto relative shadow-md rounded-lg cursor-pointer">
+            <div class="max-w-sm mx-auto relative shadow-md rounded-lg cursor-pointer hover:scale-105 duration-500">
               <img src="/img/profil.png" alt="" class="w-full h-auto object-cover rounded-lg">
               <div class="absolute bottom-0 left-0 right-0 h-40 bg-red-dark bg-opacity-75 backdrop-blur text-white p-4 rounded-b-lg">
                 <h1 class="text-2xl font-semibold text-center">Donor Terakhir</h1>
@@ -76,7 +77,7 @@
             </div>
 
             <!-- Blog Entry 2 -->
-            <div class="max-w-sm mx-auto relative shadow-md rounded-lg cursor-pointer">
+            <div class="max-w-sm mx-auto relative shadow-md rounded-lg cursor-pointer hover:scale-105 duration-500">
               <img src="/img/profil.png" alt="" class="w-full h-auto object-cover rounded-lg">
               <div class="absolute bottom-0 left-0 right-0 h-40 bg-red-dark bg-opacity-75 backdrop-blur text-white p-4 rounded-b-lg">
               <h1 class="text-2xl font-semibold text-center">Donor Kembali</h1>
@@ -88,24 +89,24 @@
 </div>
 
    <!-- component -->
-    <div class="max-w-md mx-auto bg-red-medium rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
+    <div class="max-w-md mx-auto bg-red-medium rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5  hover:scale-105 duration-500">
     <div class="p-8">
         <div class="tracking-wide text-2xl text-white font-semibold text-center">Riwayat Donor</div>
     </div>
     </div>
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
-    <div class="p-8">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5 hover:scale-105 duration-500">
+    <div class="p-8 ">
         <div class="tracking-wide text-medium text-red-dark -500 font-bold">RS Maju Jaya</div>
         <p class="block mt-1 text-lg leading-tight text-black">Jumat, 7 Juli 2023, 15.00 WIB</p>
     </div>
     </div>
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
-    <div class="p-8">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5 hover:scale-105 duration-500">
+    <div class="p-8 ">
         <div class="tracking-wide text-medium text-red-dark -500 font-bold">PMI Jayabaya</div>
         <p class="block mt-1 text-lg leading-tight text-black">Senin, 7 Agustus 2023, 15.00 WIB</p>
     </div>
     </div>
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5 hover:scale-105 duration-500">
     <div class="p-8">
         <div class="tracking-wide text-medium text-red-dark -500 font-bold">RSUK</div>
         <p class="block mt-1 text-lg leading-tight text-black">Kamis, 7 September 2023, 15.00 WIB</p>
@@ -216,9 +217,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-300">
+        <div class="bg-red-dark">
             <div class="container px-5 py-4 mx-auto">
-                <p class="text-sm text-gray-700 capitalize xl:text-center">© 2023 Bloodwave Present </p>
+                <p class="text-sm text-white capitalize xl:text-center">© 2023 Bloodwave Present </p>
         </div>
     </footer>
 </div>

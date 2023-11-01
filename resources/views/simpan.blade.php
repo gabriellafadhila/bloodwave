@@ -25,11 +25,10 @@
 				@click.away="open = false">
 				<div class="p-4 sm:p-10 text-center overflow-y-auto">
 					<!-- Icon -->
-					<span class="mb-4 inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-yellow-50 bg-yellow-100 text-yellow-500">
-                    <svg class="w-5 h-5" xmlns="" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                        
-                    </svg>
-                    </span>
+					<div class="flex  justify-center">
+					<img src="img/centang.png" alt="Bloodwave" class="w-auto h-20">
+					</div>
+
 					<!-- End Icon -->
 
 					<h3 class="mb-2 text-2xl font-bold text-red-dark">

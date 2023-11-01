@@ -4,6 +4,7 @@ export default {
     "./resources/*/.blade.php",
     "./resources/*/.js",
     "./resources/*/.vue",
+
     './pages/**/*.{html,js}',
     './components/**/*.{html,js}',
     "./resources/views/**/*.blade.php",
@@ -24,7 +25,7 @@ export default {
         fontFamily: {
           'poppins': ['Poppins', 'sans-serif']
         }
-  
+
   },
   plugins: [],
     },

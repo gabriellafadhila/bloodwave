@@ -12,20 +12,25 @@
         <div class="flex items-center">
         <!-- Logo -->
         <img src="img/logomerah.png" alt="Bloodwave" class="w-15 h-10 ml-4">
+
         </div>
 
         <!-- Navigasi Bar-->
         <div class="flex items-center space-x-2">
+
         <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Beranda</a>
         <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Riwayat Donor</a>
         <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Event</a>
         <a href="#" class="px-2 py-2 text-red-dark font-semibold hover:text-white rounded-lg text-sm">Let's Read</a>
         <a href="#" class="px-2 py-2 bg-red-dark text-white hover:bg-cream-dark font-bold rounded-lg text-sm">Daftar</a>
+
         </div>
     </div>
 </header>
 <body>
+
 <div class="bg-cream-medium flex justify-center items-center w-full h-screen ">  
+
 <!-- Left: Image -->
 <div class="w-full h-screen hidden lg:block">
   <img src="img/login.png" alt="Placeholder Image" class="object-cover w-full h-full">
@@ -33,11 +38,14 @@
 <!-- Right: Login Form -->
 <div class="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
   <h1 class="text-2xl font-semibold mb-4">Masuk</h1>
-  <form action="#" method="POST">
+
+  <form action="{{url('login/process')}}" method="POST">
+    @csrf
     <!-- Username Input -->
     <div class="mb-4">
       <label for="username" class="block text-gray-600">Nama Pengguna/Email</label>
-      <input type="text" id="username" name="username" class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500" autocomplete="off">
+      <input type="text" id="username" name="email" class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500" autocomplete="off">
+
     </div>
     <!-- Password Input -->
     <div class="mb-4">
@@ -62,6 +70,7 @@
   </div>
 </div>
 </div>
+
 <!-- Start Footer -->
 <footer class="w-full text-gray-700 bg-red-dark body-font">
         <div

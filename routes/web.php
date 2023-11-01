@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +14,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/simpan', function () {
+    return view('simpan');
+});
+
+Route::get('/riwayat', function () {
+    return view('riwayat');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/register', function () {
-    return view('register');
-});
+Route::get('/register', [AuthController::class, 'register']);
+Route::post('/register/process', [AuthController::class, 'registerprocess']);
+Route::get('/login', [AuthController::class, 'login']);
+Route::post('/login/process', [AuthController::class, 'loginprocess']);
 
 Route::get('/homepage', function () {
     return view('homepage');
@@ -36,3 +46,12 @@ Route::get('/profil', function () {
 Route::get('/notifikasi', function () {
     return view('notifikasi');
 });
+
+Route::get('/letsread', function () {
+    return view('letsread');
+});
+
+Route::get('/event', function () {
+    return view('event');
+});
+

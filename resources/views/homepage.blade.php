@@ -70,6 +70,7 @@
         
         <div class="flex flex-wrap -mx-4">
             <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                <a href = "{{ route('riwayat')}}">
                 <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
                     <div class="w-full flex justify-end">
                         <div class="w-[70px] h-[70px] flex items-center justify-center">
@@ -79,9 +80,11 @@
                     <h4 class="font-semibold text-xl text-red-dark mb-3">Riwayat Donor</h4>
                     <p class="text-red-dark">Pegang Kendali Penuh Donor</p>
                 </div>
+            </a>
             </div>
 
         <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <a href = "{{ route('event')}}">
                 <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
                 <div class="w-full flex justify-end">
                         <div class="w-[70px] h-[70px] flex items-center justify-center">
@@ -91,9 +94,11 @@
                     <h4 class="font-semibold text-xl text-red-dark mb-3">Event</h4>
                     <p class="text-red-dark">Temukan Event Donor Terdekat</p>
                 </div>
+            </a>
         </div>
 
         <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <a href = "{{ route('event')}}">
                 <div class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8">
                 <div class="w-full flex justify-end">
                         <div class="w-[70px] h-[70px] flex items-center justify-center">
@@ -103,6 +108,7 @@
                     <h4 class="font-semibold text-xl text-red-dark mb-3">Let’s Read</h4>
                     <p class="text-red-dark">Temukan informasi mengenai kesehatan</p>
                 </div>
+                </a>
             </div>
         </div>
     </div>

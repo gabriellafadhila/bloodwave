@@ -56,3 +56,7 @@ Route::get('/event', function () {
     return view('event');
 })->middleware('islogin');
 
+Route::get('/admin', function () {
+    return view('admin');
+});
+

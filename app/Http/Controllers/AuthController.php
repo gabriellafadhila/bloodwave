@@ -33,6 +33,9 @@ class AuthController extends Controller
             return redirect()->back()->with('error', 'Email atau password salah');
         }
         Auth::login($user);
-        return redirect('home');
+        return redirect('/home');
+    }
+    public function homepage(){
+        return view('homepage');
     }
 }

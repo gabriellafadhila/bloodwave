@@ -30,6 +30,7 @@ Route::get('/register', [AuthController::class, 'register']);
 Route::post('/register/process', [AuthController::class, 'registerprocess']);
 Route::get('/login', [AuthController::class, 'login']);
 Route::post('/login/process', [AuthController::class, 'loginprocess']);
+Route::get('/home', [AuthController::class, 'homepage']);
 
 Route::get('/homepage', function () {
     return view('homepage');

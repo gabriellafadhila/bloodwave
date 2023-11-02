@@ -20,7 +20,7 @@ Route::get('/simpan', function () {
 
 Route::get('/riwayat', function () {
     return view('riwayat');
-});
+})->middleware('islogin');
 
 Route::get('/', function () {
     return view('welcome');
@@ -42,19 +42,19 @@ Route::get('/loginpage', function () {
 
 Route::get('/profil', function () {
     return view('profil');
-});
+})->middleware('islogin');;
 
 Route::get('/notifikasi', function () {
     return view('notifikasi');
-});
+})->middleware('islogin');
 
 Route::get('/letsread', function () {
     return view('letsread');
-});
+})->middleware('islogin');
 
 Route::get('/event', function () {
     return view('event');
-});
+})->middleware('islogin');
 
 Route::get('/admin', function () {
     return view('admin');

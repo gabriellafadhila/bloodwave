@@ -67,7 +67,7 @@
                             <span class="mt-2 text-red-dark font-semibold leading-normal">Select a file</span>
                             <input type='file' class="hidden" />
                         </label>
-                        <button class="py-2 px-4 bg-transparent text-cream-medium font-semibold border border-cream-medium rounded hover:bg-cream-dark hover:text-red-dark hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Simpan</button>
+                        <button onclick="location.href='{{ route('simpan_data_riwayat') }}'" class="py-2 px-4 bg-transparent text-cream-medium font-semibold border border-cream-medium rounded hover:bg-cream-dark hover:text-red-dark hover:border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Simpan</button>
                     </div>
             </div>
         </div>

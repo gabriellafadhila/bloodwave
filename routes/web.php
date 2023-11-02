@@ -16,7 +16,7 @@ use App\Http\Controllers\AuthController;
 
 Route::get('/simpan', function () {
     return view('simpan');
-});
+})->name('simpan_data_riwayat');
 
 Route::get('/riwayat', function () {
     return view('riwayat');
@@ -24,7 +24,7 @@ Route::get('/riwayat', function () {
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/register', [AuthController::class, 'register']);
 Route::post('/register/process', [AuthController::class, 'registerprocess']);
@@ -34,29 +34,29 @@ Route::get('/home', [AuthController::class, 'homepage']);
 
 Route::get('/homepage', function () {
     return view('homepage');
-});
+})->name('homepage');
 
 Route::get('/loginpage', function () {
     return view('loginpage');
-});
+})->name('loginpage');
 
 Route::get('/profil', function () {
     return view('profil');
-})->middleware('islogin');;
+})->middleware('islogin')->name('profil');;
 
 Route::get('/notifikasi', function () {
     return view('notifikasi');
-})->middleware('islogin');
+})->middleware('islogin')->name('notifikasi');
 
 Route::get('/letsread', function () {
     return view('letsread');
-})->middleware('islogin');
+})->middleware('islogin')->name('letsread');
 
 Route::get('/event', function () {
     return view('event');
-})->middleware('islogin');
+})->middleware('islogin')->name('event');
 
 Route::get('/admin', function () {
     return view('admin');
-});
+})->name('admin');
 

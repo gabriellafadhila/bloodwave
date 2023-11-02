@@ -42,7 +42,7 @@
             <p class="font-poppins text-red-dark mt-4">Selamat Datang di</p>
             <h2 class="text-5xl font-semibold text-red-dark mt-4">BLOODWAVE</h2>
             <p class="font-poppins text-red-dark mt-4">Satu kantong Darah Selamatkan beribu nyawa <br>Donorkan Darahmu mari berkontribusi untuk sesama</p>
-            <button class="mt-4 bg-red-dark text-cream-medium font-semibold  text-sm rounded-lg px-4 py-2">AYO DONOR</button>
+            <button onclick="location.href='{{ route('event') }}'" class="mt-4 bg-red-dark text-cream-medium font-semibold  text-sm rounded-lg px-4 py-2">AYO DONOR</button>
         </div>
         <div class="w-1/4">
             <img src="img/hero.png" alt="" class="w-48 h-auto">

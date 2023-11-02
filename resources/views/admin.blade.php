@@ -25,14 +25,14 @@
             }
 
             .sidebar-active{
-                background-color: rgba(251, 146, 60, .9);
+                background-color:#952323;
                 border-radius: 10px;
                 color: black;
                 transition: all .3s;
             }
 
             .sidebar-active:hover{
-                color: white;
+                color: #952323;
             }
 
             .submenu{
@@ -42,151 +42,6 @@
 
             .grow-flex{
                 flex-grow: 4;
-            }
-
-            .card1{
-                border-radius: 20px;
-                background-color: #ff9e6d;
-                transition: all .3s;
-                scale: .98;
-                outline: none;
-            }
-
-            .card1:hover{
-                border-radius: 20px;
-                background: linear-gradient(145deg, #ff9e6d, #e6855c);
-                box-shadow:  10px 10px 20px #99593d,
-                            -5px -5px 10px #ffcf8f;
-                scale: 1;
-                outline: none;
-
-            }
-
-            .card2{
-                scale: .98;
-                background-color: #57d5e6;
-                border-radius: 20px;
-                transition: all .3s;
-                outline: none;
-
-            }
-
-            .card2:hover{
-                scale: 1;
-                border-radius: 20px;
-                background: linear-gradient(145deg, #57d5e6, #68feff);
-                box-shadow:  10px 10px 20px #34808a,
-                            -5px -5px 10px #7affff;
-                outline: none;
-
-            }
-
-            .card3{
-                scale: .98;
-                background-color: #6dffac;
-                border-radius: 20px;
-                transition: all .3s;
-                outline: none;
-
-            }
-
-            .card3:hover{
-                scale: 1;
-                border-radius: 20px;
-                background: linear-gradient(145deg, #6dffac, #5ce691);
-                box-shadow:  10px 10px 20px #3d9961,
-                            -5px -5px 10px #8fffe1;
-                outline: none;
-
-            }
-            .card4{
-                scale: .98;
-                background-color: #ff6dc5;
-                border-radius: 20px;
-                transition: all .3s;
-                outline: none;
-
-            }
-
-            .card4:hover{
-                scale: 1;
-                border-radius: 20px;
-                background: linear-gradient(145deg, #ff6dc5, #e65ca6);
-                box-shadow:  10px 10px 20px #993d6e,
-                            -5px -5px 10px #ff8fff;
-                outline: none;
-
-            }
-            .card5{
-                scale: .98;
-                background-color: #ff6d6d;
-                border-radius: 20px;
-                transition: all .3s;
-                outline: none;
-
-            }
-
-            .card5:hover{
-                scale: 1;
-                border-radius: 20px;
-                background: linear-gradient(145deg, #ff6d6d, #e65c5c);
-                box-shadow:  10px 10px 20px #993d3d,
-                            -5px -5px 10px #ff8f8f;
-                outline: none;
-
-            }
-            .card6{
-                scale: .98;
-                background-color: #9492ff;
-                border-radius: 20px;
-                transition: all .3s;
-                outline: none;
-
-            }
-
-            .card6:hover{
-                scale: 1;
-                border-radius: 20px;
-                background: linear-gradient(145deg, #9492ff, #8583e6);
-                box-shadow:  10px 10px 20px #595899,
-                            -5px -5px 10px #cfccff;
-                outline: none;
-
-            }
-            .card7{
-                scale: .98;
-                background-color: #f5f583;
-                border-radius: 20px;
-                transition: all .3s;
-                outline: none;
-
-            }
-
-            .card7:hover{
-                scale: 1;
-                border-radius: 20px;
-                background: linear-gradient(145deg, #ffff89, #e6d673);
-                box-shadow:  10px 10px 20px #998f4d,
-                            -5px -5px 10px #ffffb3;
-                outline: none;
-
-            }
-            .card8{
-                scale: .98;
-                background-color: #e2acff;
-                border-radius: 20px;
-                transition: all .3s;
-                outline: none;
-
-            }
-
-            .card8:hover{
-                scale: 1;
-                border-radius: 20px;
-                background: linear-gradient(145deg, #e2acff, #b378db);
-                box-shadow:  10px 10px 20px #886799,
-                            -5px -5px 10px #fff1ff;
-                outline: none;
             }
 
             .hight-screen::-webkit-scrollbar{
@@ -227,17 +82,17 @@
                  <!-- Search Bar -->
                  <section class="flex">
                     <span  class="md:flex hidden mx-4">
-                        <span id="search-bar-input" class="flex items-center dark:bg-slate-500 hidden border-2 border-blue-500 p-2 rounded-2xl">
+                        <span id="search-bar-input" class="flex items-center dark:bg-slate-500 hidden border-2 border-red-dark p-2 rounded-2xl">
                             <i id="close-input" class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-gray-100 text-gray-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-red-dark text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                             </i>
 
-                            <input type="search" name="search" id="search" class="bg-transparent dark:text-white outline-none">
+                            <input type="search" name="search" id="search" class="bg-transparent dark:text-red-dark outline-none">
 
                             <i class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-gray-100 text-gray-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-red-dark text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                 </svg>
                             </i>
@@ -246,14 +101,14 @@
 
                         <span id="search-bar-open" class="flex items-center">
                             <i class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-gray-300 text-gray-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-red-dark text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                 </svg>
                             </i>
                         </span>
                     </span>
                         <i id="collapse" class="hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-gray-300 text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-red-dark text-gray-600">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
                             </svg>                              
                         </i>
@@ -267,17 +122,17 @@
                     <span class="relative flex items-center">
                         <span id="notification-toggle">
                             <i class="flex items-center cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-gray-300 text-gray-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-red-dark text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
                                 </svg>
                                 <sup class="bg-rose-500 p-2 rounded-lg text-white leading-3 text-xs">4</sup>                                  
                             </i>
                         </span>
 
-                        <section id="notification" class="absolute notification top-11 right-0 w-80 dark:bg-slate-600 bg-tr dark:border-2 dark:border-blue-500 bg-gray-100 px-2 rounded-lg ">
+                        <section id="notification" class="absolute notification top-11 right-0 w-80 dark:bg-slate-600 bg-tr dark:border-2 dark:border-red-dark bg-gray-100 px-2 rounded-lg ">
                             <div>
                                 <div class="flex justify-between mt-2">
-                                    <span class="px-2 font-medium text-lg dark:text-gray-50">
+                                    <span class="px-2 font-medium text-lg dark:text-red-dark">
                                         Notifications
                                     </span>
                                     
@@ -287,7 +142,7 @@
                                 </div>
                             </div>
 
-                            <div class="bg-white rounded-lg my-4 dark:bg-slate-700 dark:text-white">
+                            <div class="bg-white rounded-lg my-4 dark:bg-slate-700 dark:text-red-dark">
                                 <ul class="list-none px-0">
                                     <li>
                                         <div class="flex p-2">
@@ -337,7 +192,7 @@
                     <span class="relative flex items-center">
                         <span id="comment-toggle">
                             <i class="flex items-center cursor-pointer mx-6">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-gray-300 text-gray-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 dark:text-red-dark text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
                                   </svg>                                  
                                 <sup class="bg-rose-500 p-2 rounded-lg text-white leading-3 text-xs">2</sup>                                  
@@ -518,9 +373,9 @@
         <!--Sidebar-->
         <aside id="sidebar" class="mt-11 max-w-1/6 min-w-1/6 md:w-1/6 hidden md:block">
             <div class="bg-red-medium w-fit h-fit">
-                <div class="w-full px-4 py-2">
+                <div class="w-full h-full px-4 py-2">
                     <!--Home-->
-                        <a href="" class="flex items-center p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                        <a href="" class="flex items-center p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                             <i>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -531,9 +386,9 @@
                     <!--End Home-->
 
                     <!--Content Section-->
-                        <p class="text-lg text-gray-300 p-2 border-t-2 my-2">Content Section</p>
+                        <p class="text-lg text-white p-2 border-t-2 my-2">Content Section</p>
 
-                        <a href="" class="flex items-center p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                        <a href="" class="flex items-center p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                             <i>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -543,7 +398,7 @@
                         </a>
 
                         <div class="mt-2">
-                            <div class="flex items-center justify-between p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                            <div class="flex items-center justify-between p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                 <div id="posts" class="flex items-center w-full">
                                     <span class="flex items-center w-full cursor-pointer">
                                         <i>
@@ -568,7 +423,7 @@
 
                             <div id="post-menu" class="grid grid-rows-3 grid-flow-row h-0 hidden">
                                 <div class="flex items-center w-full transition-all duration-300">
-                                    <a href="" class="flex items-center align-baseline w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center align-baseline w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Articles</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -579,7 +434,7 @@
                                 </div>
                                 
                                 <div class="flex items-center w-full">
-                                    <a href="" class="flex items-center w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Posts</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -590,7 +445,7 @@
                                 </div>
                                 
                                 <div class="flex items-center w-full">
-                                    <a href="" class="flex items-center w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Courses</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -605,10 +460,10 @@
                     <!--End Content Section-->
 
                     <!--User Section-->
-                        <p class="text-lg text-gray-300 p-2 border-t-2 my-2">User Section</p>
+                        <p class="text-lg text-white p-2 border-t-2 my-2">User Section</p>
 
                         <div class="mt-2">
-                            <div class="flex items-center justify-between p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                            <div class="flex items-center justify-between p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                 <div id="users" class="flex items-center w-full cursor-pointer">
                                     <span class="flex items-center w-full">
                                         <i>
@@ -633,7 +488,7 @@
 
                             <div id="user-menu" class="grid grid-rows-3 grid-flow-row h-0 hidden">
                                 <div class="flex items-center w-full">
-                                    <a href="" class="flex items-center align-baseline w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center align-baseline w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Admin</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -644,7 +499,7 @@
                                 </div>
                                 
                                 <div class="flex items-center w-full">
-                                    <a href="" class="flex items-center w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Teachers</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -655,7 +510,7 @@
                                 </div>
                                 
                                 <div class="flex items-center w-full">
-                                    <a href="" class="flex items-center w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Students</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -670,10 +525,10 @@
                     <!--End User Section-->
 
                     <!-- Setting Section -->
-                        <p class="text-lg text-gray-300 p-2 border-t-2 my-2">Setting</p>
+                        <p class="text-lg text-white p-2 border-t-2 my-2">Setting</p>
 
                         <div class="mt-2 ">
-                            <div class="flex items-center justify-between p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                            <div class="flex items-center justify-between p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                 <div id="setting" class="flex items-center w-full">
                                     <span class="flex items-center w-full cursor-pointer">
                                         <i>
@@ -699,7 +554,7 @@
 
                             <div id="setting-menu" class="grid grid-rows-2 grid-flow-row h-0 hidden ">
                                 <div class="flex items-center w-full">
-                                    <a href="" class="flex items-center align-baseline w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center align-baseline w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Header Setting</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -710,7 +565,7 @@
                                 </div>
                                 
                                 <div class="flex items-center w-full">
-                                    <a href="" class="flex items-center w-3/4 p-2 text-gray-200 hover:text-orange-400 active:text-orange-600 transition-all duration-300">
+                                    <a href="" class="flex items-center w-3/4 p-2 text-white hover:text-cream-medium active:text-cream-medium transition-all duration-300">
                                         <p>Footer Setting</p>
                                         <i class="flex justify-end grow-flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -727,260 +582,74 @@
         </aside>
 
         <!--Cards-->
-            <section id="main-body" class="mt-11 md:w-5/6 w-full dark:bg-slate-500">
-                <div class="p-2">
-                    <div class="flex flex-wrap justify-between">
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="border-2 card1 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="card2 border-2 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="card3 border-2 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="card4 border-2 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="card5 border-2 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="card6 border-2 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="card7 border-2 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                           
-                        </div>
-                        <div class="md:w-1/4 sm:w-1/2 w-full">
-                            <div class="card8 border-2 border-gray-50 shadow-lg m-4 p-2">
-                                <a href="" class="leading-10">
-                                    <div class="flex justify-between items-center">
-                                        <div>
-                                            <p class="text-2xl leading-10">$50</p>
-                                            <p class="text-lg leading-10">Profit</p>
-                                        </div>
-                                        <div>
-                                            <i>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                                                </svg>                                      
-                                            </i>
-                                        </div>
-                                    </div>
-                                   <div class="border-t-2 border-white"></div>
-                                    <div class="flex justify-between items-center">
-                                        <p class="text-sm leading-10">Last Update: 27 Nov 22 17:30</p>
-                                        <i>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>                                      
-                                        </i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+           <!-- component -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@2.x.x/dist/alpine.min.js" defer></script>
+    <title>Admin</title>
+</head>
+
+<body>
+    <div class="bg-white shadow h-full w-full" x-data="{ images: [] }">
+        <form action="{{url('/admin/artikel/submit')}}" method="post" enctype="multipart/form-data">
+            @csrf
+        <div class="heading text-center font-bold text-2xl m-5 text-gray-800 bg-white">New Post</div>
+        <div class="editor mx-auto w-10/12 flex flex-col text-gray-800 border border-gray-300 p-4 shadow-lg max-w-2xl">
+            <input name="judul" class="title bg-gray-100 border border-gray-300 p-2 mb-4 outline-none" spellcheck="false" placeholder="Title" type="text">
+            <textarea name="isi" class="description bg-gray-100 sec p-3 h-60 border border-gray-300 outline-none" spellcheck="false" placeholder="Describe everything about this post here"></textarea>
+
+            <!-- icons -->
+            <div class="icons flex text-gray-500 m-2">
+                <label id="select-image">
+                    <svg class="mr-2 cursor-pointer hover:text-gray-700 border rounded-full p-1 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+                    </svg>
+                   <input hidden type="file" multiple @change="images = Array.from($event.target.files).map(file => ({url: URL.createObjectURL(file), name: file.name, preview: ['jpg', 'jpeg', 'png', 'gif'].includes(file.name.split('.').pop().toLowerCase()), size: file.size > 1024 ? file.size > 1048576 ? Math.round(file.size / 1048576) + 'mb' : Math.round(file.size / 1024) + 'kb' : file.size + 'b'}))" x-ref="fileInput">
+
+                </label>
+                <div class="count ml-auto text-gray-400 text-xs font-semibold">0/300</div>
+            </div>
+
+            <!-- Preview image here -->
+            <div id="preview" class="my-4 flex">
+                <template x-for="(image, index) in images" :key="index">
+                    <div class="relative w-32 h-32 object-cover rounded ">
+                         <div x-show="image.preview" class="relative w-32 h-32 object-cover rounded">
+                    <img :src="image.url" class="w-32 h-32 object-cover rounded">
+                    <button @click="images.splice(index, 1)" class="w-6 h-6 absolute text-center flex items-center top-0 right-0 m-2 text-white text-lg bg-red-500 hover:text-red-700 hover:bg-gray-100 rounded-full p-1"><span class="mx-auto">×</span></button>
+                <div x-text="image.size" class="text-xs text-center p-2"></div>
+                </div>
+                <div x-show="!image.preview" class="relative w-32 h-32 object-cover rounded">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 fill-white stroke-indigo-500" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg> -->
+                     <svg class="fill-current  w-32 h-32 ml-auto pt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M15 2v5h5v15h-16v-20h11zm1-2h-14v24h20v-18l-6-6z" />
+                  </svg>
+                    <button @click="images.splice(index, 1)" class="w-6 h-6 absolute text-center flex items-center top-0 right-0 m-2 text-white text-lg bg-red-500 hover:text-red-700 hover:bg-gray-100 rounded-full p-1"><span class="mx-auto">×</span></button>
+                       <div x-text="image.size" class="text-xs text-center p-2"></div>
+                </div>
+                      
                     </div>
-                </div>
+                </template>
+            </div>
+            <!-- Buttons -->
+            <div class="buttons flex justify-end">
+                <button type="submit" class="btn border border-indigo-500 p-1 px-4 font-semibold cursor-pointer text-gray-200 ml-2 bg-indigo-500">Post</button>
+            </div>
+        </div>
+        </form>
+    </div>
 
-                <div class="mt-8 px-4">
-                    <hr>
+   
+</body>
 
-                    <h2 class="text-lg font-semibold p-2 dark:text-gray-50">User Section</h2>
-                    <h4 class="text-base text-gray-500 p-1 dark:text-gray-200">This Section Show Your User Information</h4>
-                    <p class="p-2 dark:text-gray-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio nobis voluptas? Fugit maiores repellat aut commodi in. Nobis officiis blanditiis sequi iste molestias pariatur ut nam corrupti provident distinctio consequatur iure enim praesentium necessitatibus aliquid, numquam exercitationem error fuga tempora, voluptatum omnis eveniet harum fugit aut? Tempore, ea. Nisi.</p>
-                    <p class="p-2 dark:text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique mollitia voluptas deserunt autem debitis repudiandae nulla, id harum distinctio numquam quod quibusdam. Dolorem ex iste accusantium doloribus culpa tempore fugiat commodi expedita, doloremque sed facere magni et totam unde ipsa fugit repudiandae eos quo cupiditate. Aliquid vero debitis recusandae!</p>
-                    <p class="p-2 dark:text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique mollitia voluptas deserunt autem debitis repudiandae nulla, id harum distinctio numquam quod quibusdam. Dolorem ex iste accusantium doloribus culpa tempore fugiat commodi expedita, doloremque sed facere magni et totam unde ipsa fugit repudiandae eos quo cupiditate. Aliquid vero debitis recusandae!</p>
-                    <p class="p-2 dark:text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique mollitia voluptas deserunt autem debitis repudiandae nulla, id harum distinctio numquam quod quibusdam. Dolorem ex iste accusantium doloribus culpa tempore fugiat commodi expedita, doloremque sed facere magni et totam unde ipsa fugit repudiandae eos quo cupiditate. Aliquid vero debitis recusandae!</p>
-                    <p class="p-2 dark:text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique mollitia voluptas deserunt autem debitis repudiandae nulla, id harum distinctio numquam quod quibusdam. Dolorem ex iste accusantium doloribus culpa tempore fugiat commodi expedita, doloremque sed facere magni et totam unde ipsa fugit repudiandae eos quo cupiditate. Aliquid vero debitis recusandae!</p>
-                </div>
-
-                <footer class="w-full flex items-center justify-center border-t-2 mt-6 dark:border-t-slate-600 border-t-slate-500">
-                    <p class="text-center p-4 text-lg text-gray-600 dark:text-gray-50 font-normal">Designed By <i class="text-rose-500 dark:text-emerald-400 font-semibold dark:hover:text-emerald-200 hover:text-slate-600 transition-all duration-300"> <a href="mailto:bloodwave@gmail.com">Bloodwave </a></i> </p>
-                </footer>
-
-            </section>
+</html>
         <!--End Cards-->
     </section>
 
@@ -1129,3 +798,114 @@
     </script>
 </body>
 </html>
+
+<!-- Start Footer -->
+<footer class="w-full text-gray-700 bg-red-dark body-font">
+        <div
+            class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+            <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
+                <a class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
+                <img src="img/logo.png" alt="Bloodwave" class="w-28 h-12 ml-8">
+                </a>
+                <p class="mt-2 text-sm text-cream-medium font-semibold">Darah Anda, Harapan Mereka</p>
+                <div class="mt-4">
+                    <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                        <a class="text-cream-medium cursor-pointer hover:text-cream-dark">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a class="ml-3  cursor-pointer hover: text-cream-dark">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="w-5 h-5" viewBox="0 0 24 24">
+                                <path
+                                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-cream-medium cursor-pointer hover:text-cream-dark">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                            </svg>
+                        </a>
+                        <a class="ml-3 text-cream-medium cursor-pointer hover:text-cream-dark">
+                            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path stroke="none"
+                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                </path>
+                                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mb-3 text-sm font-medium tracking-widest text-cream-medium uppercase title-font">About</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-cream-medium cursor-pointer hover:text-gray-900">Company</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium  cursor-pointer hover:text-gray-900">Careers</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium cursor-pointer hover:text-gray-900">Blog</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mb-3 text-sm font-medium tracking-widest text-cream-medium  uppercase title-font">Support</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-cream-medium  cursor-pointer hover:text-gray-900">Contact Support</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium  cursor-pointer hover:text-gray-900">Help Resources</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium  cursor-pointer hover:text-gray-900">Release Updates</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mb-3 text-sm font-medium tracking-widest text-cream-medium  uppercase title-font">Platform
+                    </h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-cream-medium cursor-pointer hover:text-gray-900">Terms &amp; Privacy</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium  cursor-pointer hover:text-gray-900">Pricing</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium cursor-pointer hover:text-gray-900">FAQ</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mb-3 text-sm font-medium tracking-widest text-cream-medium  uppercase title-font">Contact</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-cream-medium cursor-pointer hover:text-gray-900">Send a Message</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium  cursor-pointer hover:text-gray-900">Request a Quote</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-cream-medium  cursor-pointer hover:text-gray-900">+123-456-7890</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="bg-red-dark">
+            <div class="container px-5 py-4 mx-auto">
+                <p class="text-sm text-white capitalize xl:text-center">© 2023 Bloodwave Present </p>
+        </div>
+    </footer>
+</div>

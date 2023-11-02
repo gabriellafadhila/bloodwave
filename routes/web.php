@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArtikelController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
@@ -32,6 +33,8 @@ Route::get('/login', [AuthController::class, 'login']);
 Route::post('/login/process', [AuthController::class, 'loginprocess']);
 Route::get('/home', [AuthController::class, 'homepage']);
 
+Route::post('/admin/artikel/submit', [ArtikelController::class, 'store'])->middleware("islogin");
+
 Route::get('/homepage', function () {
     return view('homepage');
 });
@@ -48,9 +51,7 @@ Route::get('/notifikasi', function () {
     return view('notifikasi');
 })->middleware('islogin');
 
-Route::get('/letsread', function () {
-    return view('letsread');
-})->middleware('islogin');
+Route::get('/letsread', [ArtikelController::class, 'index'])->middleware('islogin');
 
 Route::get('/event', function () {
     return view('event');

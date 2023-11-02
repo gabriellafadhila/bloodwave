@@ -321,9 +321,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-300">
+        <div class="bg-red-dark">
             <div class="container px-5 py-4 mx-auto">
-                <p class="text-sm text-red-dark capitalize xl:text-center">© 2023 Bloodwave Present </p>
+                <p class="text-sm text-cream-medium capitalize xl:text-center">© 2023 Bloodwave Present </p>
         </div>
     </footer>
 </div>

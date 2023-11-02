@@ -20,7 +20,7 @@ Route::get('/simpan', function () {
 
 Route::get('/riwayat', function () {
     return view('riwayat');
-})->middleware('islogin');
+})->middleware('islogin')->name('riwayat_donor');
 
 Route::get('/', function () {
     return view('welcome');

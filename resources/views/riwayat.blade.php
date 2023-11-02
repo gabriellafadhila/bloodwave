@@ -46,15 +46,15 @@
             <div class="flex gap-32">
                 <form action="">
                     <div class="py-1">
-                        <span class="px-1 text-sm text-cream-medium">Username</span>
+                        <span class="px-1 text-sm text-cream-medium">Tanggal Donor</span>
                         <input placeholder="" type="text" class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-cream-medium shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
                     </div>
                     <div class="py-1">
-                        <span class="px-1 text-sm text-cream-medium">Email </span>
+                        <span class="px-1 text-sm text-cream-medium">Jam Donor</span>
                         <input placeholder="" type="email" class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-cream-medium shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
                     </div>
                     <div class="py-1">
-                        <span class="px-1 text-sm text-cream-medium">Password</span>
+                        <span class="px-1 text-sm text-cream-medium">Lokasi donor</span>
                         <input placeholder="" type="password" x-model="password" class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-cream-medium  placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
                     </div>
                 </form>
@@ -131,81 +131,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="p-4 w-fit bg-slate-600">
-        <div class="bg-white p-4 rounded-md text-center">
-            <div>
-                <div>
-                    <div>
-                        <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
-                            <div>
-                                <span>Donor Terakhir</span>
-                            </div>
-                        </div>
-
-                    <div>
-                        <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
-                            <div class="px-2 flex">
-                                <span>Sabtu, 07 Oktober 2023 </span>
-                            </div>
-                        </div>
-                    </div>
-
-                        <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                            <div class="px-2">
-                                <span>18.00 WIB</span>
-                            </div>
-                        </div>
-
-                        <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                            <div class="px-2">
-                                <span>RS Jaya Medika</span>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="p-4 w-fit bg-slate-600">
-            <div class="bg-white p-4 rounded-md text-center">
-                <div>
-                    <div>
-                        <div>
-                            <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
-                                <div>
-                                    <span>Donor Terakhir</span>
-                                </div>
-                            </div>
     
-                        <div>
-                            <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
-                                <div class="px-2 flex">
-                                    <span>Selasa, 07 November 2023 </span>
-                                </div>
-                            </div>
-                        </div>
-    
-                            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                                <div class="px-2">
-                                    <span>18.00 WIB</span>
-                                </div>
-                            </div>
-    
-                            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                                <div class="px-2">
-                                    <span>RS Terdekat</span>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-</div>
-
-
-<!-- Recent Donor End-->
-
-<!-- Riwayat Start-->
 </div></div>
 <div></div>
 <div class="max-w-md mx-auto bg-red-medium rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">

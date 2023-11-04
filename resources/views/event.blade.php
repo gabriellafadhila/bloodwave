@@ -15,7 +15,7 @@
         <a href="{{url('letsread')}}" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Let's Read</a>
         @if(Auth::user())
         <a href="{{url('profil')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">{{auth()->user()->nama}}</a>
-        
+
         @else
         <a href="{{url('login')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Masuk</a>
         <a href="{{url('register')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Daftar</a>
@@ -39,9 +39,6 @@
             <div class="sm:w-1/2 relative">
               <div>
                 <div class="absolute bottom-0 left-0 p-6">
-                  <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white font-bold hover:text-gray-200 hover:underline">
-                    <p class="px-2 py-2 bg-white text-red-dark hover:bg-red-dark hover:text-white font-bold rounded-lg text-sm">Baca Selengkapnya</p>
-                  </a>
                 </div>
               </div>
               <img src="img/eventsatu.png" class="w-full" alt="eventsatu" />
@@ -49,9 +46,6 @@
             <div class="sm:w-1/2 sm:mt-0 mt-4 relative">
               <div>
                 <div class="absolute bottom-0 left-0 p-6">
-                    <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white font-bold hover:text-gray-200 hover:underline">
-                        <p class="px-2 py-2 bg-white text-red-dark hover:bg-red-dark hover:text-white font-bold rounded-lg text-sm">Baca Selengkapnya</p>
-                      </a>
                 </div>
               </div>
               <img src="img/eventdua.png" class="w-full" alt="eventdua" />
@@ -60,9 +54,6 @@
           <div class="relative">
             <div>
               <div class="absolute bottom-0 left-0 md:p-10 p-6">
-                <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white font-bold hover:text-gray-200 hover:underline">
-                    <p class="px-2 py-2 bg-white text-red-dark hover:bg-red-dark hover:text-white font-bold rounded-lg text-sm">Baca Selengkapnya</p>
-                  </a>
               </div>
             </div>
             <img src="img/eventtujuh.png" alt="eventtujuh" class="w-full mt-8 md:mt-6 hidden sm:block" />
@@ -73,9 +64,6 @@
           <div class="relative">
             <div>
               <div class="absolute bottom-0 left-0 md:p-10 p-6">
-                <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white font-bold hover:text-gray-200 hover:underline">
-                    <p class="px-2 py-2 bg-white text-red-dark hover:bg-red-dark hover:text-white font-bold rounded-lg text-sm">Baca Selengkapnya</p>
-                  </a>
               </div>
             </div>
             <img src="img/eventempat.png" alt="eventempat" class="w-full sm:block hidden" />
@@ -85,9 +73,6 @@
             <div class="relative w-full">
               <div>
                 <div class="absolute bottom-0 left-0 p-6">
-                    <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white font-bold hover:text-gray-200 hover:underline">
-                        <p class="px-2 py-2 bg-white text-red-dark hover:bg-red-dark hover:text-white font-bold rounded-lg text-sm">Baca Selengkapnya</p>
-                      </a>
                 </div>
               </div>
               <img src="img/eventlima.png" class="w-full" alt="eventlima" />
@@ -95,9 +80,6 @@
             <div class="relative w-full sm:mt-0 mt-4">
               <div>
                 <div class="absolute bottom-0 left-0 p-6">
-                    <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white font-bold hover:text-gray-200 hover:underline">
-                        <p class="px-2 py-2 bg-white text-red-dark hover:bg-red-dark hover:text-white font-bold rounded-lg text-sm">Baca Selengkapnya</p>
-                      </a>
                 </div>
               </div>
               <img src="img/eventenam.jpeg" class="w-full" alt="eventenam" />

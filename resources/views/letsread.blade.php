@@ -15,7 +15,7 @@
         <a href="{{url('letsread')}}" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Let's Read</a>
         @if(Auth::user())
         <a href="{{url('profil')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">{{auth()->user()->nama}}</a>
-        
+
         @else
         <a href="{{url('login')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Masuk</a>
         <a href="{{url('register')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Daftar</a>
@@ -41,10 +41,12 @@
             <h1 class="mb-4 text-4xl font-bold leading-none tracking-tight text-black">Rangkaian Kegiatan HDKD Ke-78 Donor Darah di UDD PMI Kota Malang</h1>
             <p class="leading-normal">Malang - Dalam rangka Peringatan Hari Dharma Karya Dhika (HDKD) Kementerian Hukum dan HAM ke-78 yang jatuh pada tanggal 19 Agustus 2023, Kantor Imigrasi Kelas I TPI Malang bersama Lapas Malang, LPP Malang, dan Bapas Malang, pagi ini melaksanakan kegiatan Donor Darah di UDD PMI Kota Malang pada pukul 08.00 WIB (04/08).
             </p>
+            <img src="img/letsreadkonten1.png" alt="" class="w-25 h-50 flex justify-center items-center">
             <p class="leading-normal"> <br>Keikutsertaan jajaran staf dari Kantor Imigrasi Kelas I TPI Malang, Lapas Malang, LPP Malang, dan Bapas Malang dalam kegiatan Donor Darah ini merupakan bentuk nyata dari kepedulian mereka terhadap sesama dan semangat gotong royong yang diusung dalam peringatan HDKD kali ini.
             <br/></p>
             <p class="leading-normal"> <br>Kegiatan ini berjalan dengan lancar dan penuh antusiasme. Sejak pagi hari, para donatur sudah berbaris rapi menunggu giliran mereka untuk mendonorkan darah. Mengingat pentingnya pasokan darah bagi keberlangsungan pelayanan kesehatan, partisipasi mereka sangat berharga.
             <br/></p>
+            <img src="img/letsreadkonten2.png" alt="" class="w-25 h-50 flex justify-center items-center">
             <div class="flex flex-row items-center mt-4 text-black">
                <div class="w-1/2 text-red-dark"> Kesehatan </div>
                 </div>

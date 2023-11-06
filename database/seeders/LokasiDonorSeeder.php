@@ -16,8 +16,11 @@ class LokasiDonorSeeder extends Seeder
     public function run()
     {
         DB::table('tb_lokasi_donor')->insert([
-            ['nama_lokasi' => 'RS Surabaya'],
+            ['nama_lokasi' => 'RS Saiful Anwar'],
             ['nama_lokasi' => 'RS Malang'],
+            ['nama_lokasi' => 'RS UNISMA'],
+            ['nama_lokasi' => 'RS Brawijaya'],
+            ['nama_lokasi' => 'RS Lavalette'],
         ]);
     }
 }

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\RiwayatController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +15,17 @@ use App\Http\Controllers\AuthController;
 |
 */
 
-Route::get('/simpan', function () {
-    return view('simpan');
-})->name('simpan_data_riwayat');
+// Route::get('/simpan_data_riwayat', function () {
+//     return view('simpan');
+// })->name('simpan_data_riwayat');
 
-Route::get('/riwayat', function () {
-    return view('riwayat');
-})->middleware('islogin')->name('riwayat_donor');
+Route::middleware(['web'])->post('/simpan_data_riwayat', [RiwayatController::class, 'simpan_data_riwayat'])->name('simpan_data_riwayat');
+Route::get('/riwayat', [RiwayatController::class, 'index'])->name('tampil_riwayat');
+Route::put('/riwayat/{id}/edit', [RiwayatController::class, 'edit_riwayat'])->name('edit_riwayat');
+Route::delete('/riwayat/{id}', [RiwayatController::class, 'hapus_riwayat'])->name('hapus_riwayat');
+// Route::get('/riwayat', function () {
+//     return view('riwayat');
+// })->middleware('islogin')->name('riwayat_donor');
 
 Route::get('/', function () {
     return view('welcome');
@@ -28,7 +33,7 @@ Route::get('/', function () {
 
 Route::get('/register', [AuthController::class, 'register']);
 Route::post('/register/process', [AuthController::class, 'registerprocess']);
-Route::get('/login', [AuthController::class, 'login']);
+Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/login/process', [AuthController::class, 'loginprocess']);
 Route::get('/home', [AuthController::class, 'homepage']);
 
@@ -59,4 +64,3 @@ Route::get('/event', function () {
 Route::get('/admin', function () {
     return view('admin');
 })->name('admin');
-

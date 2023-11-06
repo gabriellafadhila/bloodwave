@@ -10,32 +10,37 @@ use App\Models\User;
 
 class AuthController extends Controller
 {
-   public function register(){
-    return view('register');
+    public function register()
+    {
+        return view('register');
     }
-   public function login(){
-    return view('loginpage');
+    public function login()
+    {
+        return view('loginpage');
     }
-    public function registerprocess(Request $request){
+    public function registerprocess(Request $request)
+    {
         $create = User::create([
             'email' => $request->email,
             'password' => Hash::make($request->password),
             'nama' => $request->nama,
             'no_telp' => $request->nomortelepon,
             'umur' => $request->umur
-         ]);
+        ]);
 
-         return redirect('/login');
+        return redirect('/login');
     }
-    public function loginprocess(Request $request){
+    public function loginprocess(Request $request)
+    {
         $user = User::where('email', $request->email)->first();
-        if(!Hash::check($request->password, $user->password)){
+        if (!Hash::check($request->password, $user->password)) {
             return redirect()->back()->with('error', 'Email atau password salah');
         }
         Auth::login($user);
         return redirect('/home');
     }
-    public function homepage(){
+    public function homepage()
+    {
         return view('homepage');
     }
 }

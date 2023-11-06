@@ -2,9 +2,9 @@
 <header class="bg-red-dark shadow-md">
     <div class="flex justify-between items-center py-2 px-5 border-b-2 border-grey-200">
         <div class="flex items-center">
-        <!-- Logo -->
-        <img src="img/logo.png" alt="Bloodwave" class="w-15 h-10 ml-4">
-        </div>
+            <!-- Logo -->
+            <img src="img/logo.png" alt="Bloodwave" class="w-15 h-10 ml-4">
+            </div>
 
          <!-- Navigasi Bar-->
        <div class="flex items-center space-x-2">
@@ -15,7 +15,6 @@
         <a href="{{url('letsread')}}" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Let's Read</a>
         @if(Auth::user())
         <a href="{{url('profil')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">{{auth()->user()->nama}}</a>
-        
         @else
         <a href="{{url('login')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Masuk</a>
         <a href="{{url('register')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Daftar</a>

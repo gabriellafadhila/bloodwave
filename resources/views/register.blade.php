@@ -12,7 +12,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Atur shadow pada border ketika dihover */
         }
 </style>
-
+<!--Header-->
 <header class="bg-cream-medium shadow-md border-b-2 border-cream-medium">
     <div class="flex justify-between items-center py-2 px-5 border-b border-red-dark shadow-border">
         <div class="flex items-center">
@@ -22,12 +22,12 @@
 
         <!-- Navigasi Bar-->
         <div class="flex items-center space-x-2">
-            <a href="{{url('home')}}" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Beranda</a>
-            <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Riwayat Donor</a>
-            <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Event</a>
-            <a href="#" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm">Let's Read</a>
-            <a href="{{url('login')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Masuk</a>
-            <a href="{{url('register')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Daftar</a>
+            <a href="{{url('home')}}" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Beranda</a>
+            <a href="#" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Riwayat Donor</a>
+            <a href="#" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Event</a>
+            <a href="#" class="px-2 py-2 bg-cream-medium text-red-dark font-semibold rounded-lg text-sm">Let's Read</a>
+            <a href="{{url('login')}}" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm hover:bg-cream-dark">Masuk</a>
+            <a href="{{url('register')}}" class="px-2 py-2 bg-red-dark text-cream-medium font-semibold rounded-lg text-sm hover:bg-cream-dark">Daftar</a>
         </div>
     </div>
 </header>
@@ -91,7 +91,7 @@
                     </div>
                     <div class="flex -mx-3">
                         <div class="w-full px-3 mb-5">
-                            <button class="block w-full max-w-xs mx-auto bg-red-dark hover:bg-cream-dark focus:bg-red-dark text-white rounded-lg px-3 py-3 font-bold">REGISTER NOW</button>
+                            <button class="block w-full max-w-xs mx-auto bg-red-dark hover:bg-cream-dark focus:bg-red-dark text-white rounded-lg px-3 py-3 font-bold">DAFTAR SEKARANG</button>
                         </div>
                     </div>
                 </div>

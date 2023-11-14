@@ -26,7 +26,7 @@ BloodWave adalah sebuah platform online yang inovatif dan berfungsi sebagai alat
 | Cream - Medium| #DC3545 |
 
 
-## Pengembang Website Web Xplore
+## Pengembang Website Bloodwave
   - Gabriella Fadhilatus Awanda    (215150600111010)
   - Ajeng Ayu Kusuma Wardani       (215150600111011)
   - Ni'mah Magfiroh                (215150607111017)

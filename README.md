@@ -1,7 +1,7 @@
-# Web Xplore
+# Bloodwave
 <p align="center" style="padding-top: 100px; padding-bottom: 100px;">
-  <a href="https://web-xplore-orpin.vercel.app/" target="_blank">
-    <img src="" width="400" alt="Web Xplore Logo">
+  <a href="" target="_blank">
+    <img src="" width="400" alt="">
   </a>
 </p>
 

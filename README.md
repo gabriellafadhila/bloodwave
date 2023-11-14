@@ -1,58 +1,32 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+# Web Xplore
+<p align="center" style="padding-top: 100px; padding-bottom: 100px;">
+  <a href="https://web-xplore-orpin.vercel.app/" target="_blank">
+    <img src="https://res.cloudinary.com/duvtd590q/image/upload/v1699623585/logo_webXplore_nobg_bekyx5.svg" width="400" alt="Web Xplore Logo">
+  </a>
 </p>
 
-## About Bloodwave
+BloodWave adalah sebuah platform online yang inovatif dan berfungsi sebagai alat yang sangat berguna dalam mendukung dan meningkatkan kegiatan donor darah. Adanya “BloodWave” dilatar belakangi oleh kebutuhan mendesak akan manajemen donor darah yang lebih efisien dan meningkatkan partisipasi dalam kegiatan donor darah. Dengan berbagai fitur canggihnya, website ini memungkinkan para donor darah untuk dengan mudah mengelola profil pribadi mereka, melacak riwayat donasi darah, dan bahkan mengikuti berbagai event donor darah yang akan datang. Selain itu, pengguna juga dapat mengakses artikel-artikel informatif tentang donor darah melalui fitur "Let's Read", yang membantu dalam memberikan pemahaman lebih mendalam tentang proses donasi darah. 
 
-<p align="center"><a href="" target="_blank"><img src="" width="400" alt="BloodWave Logo"></a></p>
+## Fitur dan Cara Penggunaan
+-Profil Pengguna : Sistem yang dapat digunakan oleh para pendonor untuk membuat dan mengelola profil pribadi mereka, termasuk informasi seperti nama, golongan darah dan menampilkan informasi total donor, donor terakhir, donor kembali
 
-"BloodWave" adalah sebuah platform online yang inovatif dan berfungsi sebagai alat yang sangat berguna dalam mendukung dan meningkatkan kegiatan donor darah. Adanya “BloodWave” dilatar belakangi oleh kebutuhan mendesak akan manajemen donor darah yang lebih efisien dan meningkatkan partisipasi dalam kegiatan donor darah. Dengan berbagai fitur canggihnya, website ini memungkinkan para donor darah untuk dengan mudah mengelola profil pribadi mereka, melacak riwayat donasi darah, dan bahkan mengikuti berbagai event donor darah yang akan datang. Selain itu, pengguna juga dapat mengakses artikel-artikel informatif tentang donor darah melalui fitur "Let's Read", yang membantu dalam memberikan pemahaman lebih mendalam tentang proses donasi darah.
+-Riwayat Donor : Sistem yang dapat digunakan oleh para pendonor untuk memasukkan riwayat donor (tanggal donor dan foto kartu donor) mereka untuk mendapatkan reminder donor selanjutnya
 
-## Learning Laravel
+-Event : Sistem yang dapat digunakan oleh pendonor untuk mengetahui event atau informasi tentang kegiatan donor darah termasuk hari, tanggal, tempat dan waktu donor darah.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-Let’s Read : Sistem yang berisi artikel artikel tentang donor darah yang berguna untuk pendonor darah sebagai bekal mereka pada saat melakukan donor darah, artikel-artikel ini berisi tentang informasi donor darah, seperti artikel manfaat donor darah, artikel tips dan panduan untuk donor darah yang sukses dan lainnya.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## UI Kit
+| Color         | Hex     |
+| ---           | ---     |
+| Red - Dark    | #F05D0D |
+| Red - Medium  | #FBFFE3 |
+| Cream - Dark  | #FFFFFF |
+| Cream - Medium| #DC3545 |
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Pengembang Website Web Xplore
+  - Gabriella Fadhilatus Awanda    (215150600111010)
+  - Ajeng Ayu Kusuma Wardani       (215150600111011)
+  - Ni'mah Magfiroh                (215150607111017)

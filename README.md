@@ -1,7 +1,7 @@
 # Bloodwave
 <p align="center" style="padding-top: 100px; padding-bottom: 100px;">
   <a href="" target="_blank">
-    <p align="center"><a href="" target="_blank"><img src="/public/img/logomerah.png" width="400" alt="Logo Bloodwave"></a></p>
+    <p align="center"><a href="" target="_blank"><img src="/public/img/logo.png" width="400" alt="Logo Bloodwave"></a></p>
   </a>
 </p>
 

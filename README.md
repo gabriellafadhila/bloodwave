@@ -1,11 +1,11 @@
 # Bloodwave
 <p align="center" style="padding-top: 100px; padding-bottom: 100px;">
   <a href="" target="_blank">
-    <img src="" width="400" alt="">
+    <p align="center"><a href="" target="_blank"><img src="/public/img/logomerah.png" width="400" alt="Logo Bloodwave"></a></p>
   </a>
 </p>
 
-BloodWave adalah sebuah platform online yang inovatif dan berfungsi sebagai alat yang sangat berguna dalam mendukung dan meningkatkan kegiatan donor darah. Adanya “BloodWave” dilatar belakangi oleh kebutuhan mendesak akan manajemen donor darah yang lebih efisien dan meningkatkan partisipasi dalam kegiatan donor darah. Dengan berbagai fitur canggihnya, website ini memungkinkan para donor darah untuk dengan mudah mengelola profil pribadi mereka, melacak riwayat donasi darah, dan bahkan mengikuti berbagai event donor darah yang akan datang. Selain itu, pengguna juga dapat mengakses artikel-artikel informatif tentang donor darah melalui fitur "Let's Read", yang membantu dalam memberikan pemahaman lebih mendalam tentang proses donasi darah. 
+BloodWave adalah sebuah platform online yang inovatif dan berfungsi sebagai alat yang sangat berguna dalam mendukung dan meningkatkan kegiatan donor darah. Adanya “BloodWave” dilatar belakangi oleh kebutuhan mendesak akan manajemen donor darah yang lebih efisien dan meningkatkan partisipasi dalam kegiatan donor darah. Dengan berbagai fitur canggihnya, website ini memungkinkan para donor darah untuk dengan mudah mengelola profil pribadi mereka, melacak riwayat donasi darah, dan bahkan mengikuti berbagai event donor darah yang akan datang. Selain itu, pengguna juga dapat mengakses artikel-artikel informatif tentang donor darah melalui fitur "Let's Read", yang membantu dalam memberikan pemahaman lebih mendalam tentang proses donasi darah.
 
 ## Fitur Bloodwave
 -Profil Pengguna : Sistem yang dapat digunakan oleh para pendonor untuk membuat dan mengelola profil pribadi mereka, termasuk informasi seperti nama, golongan darah dan menampilkan informasi total donor, donor terakhir, donor kembali

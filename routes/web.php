@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RiwayatController;
+use App\Http\Controllers\ProfilController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +32,7 @@ Route::get('/', function () {
 Route::get('/register', [AuthController::class, 'register']);
 Route::post('/register/process', [AuthController::class, 'registerprocess']);
 Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 Route::post('/login/process', [AuthController::class, 'loginprocess']);
 Route::get('/home', [AuthController::class, 'homepage']);
 
@@ -41,9 +44,7 @@ Route::get('/loginpage', function () {
     return view('loginpage');
 })->name('loginpage');
 
-Route::get('/profil', function () {
-    return view('profil');
-})->middleware('islogin')->name('profil');;
+Route::get('/profil', [ProfilController::class, 'index'])->middleware('islogin')->name('profil');
 
 Route::get('/notifikasi', function () {
     return view('notifikasi');

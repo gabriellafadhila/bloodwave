@@ -108,65 +108,6 @@
     </div>
     <!-- Box Welcome End-->
 
-    <!-- Recent Donor Start-->
-    <div class="flex flex-row md:max-w-2xl mx-auto gap-5 w-full justify-center">
-        <div class="bg-white p-4 w-full rounded-md text-center">
-            <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
-                <div>
-                    <span>Donor Terakhir</span>
-                </div>
-            </div>
-
-            <div>
-                <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
-                    <div class="px-2 flex">
-                        <span>Sabtu, 07 Oktober 2023 </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                <div class="px-2">
-                    <span>18.00 WIB</span>
-                </div>
-            </div>
-
-            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                <div class="px-2">
-                    <span>RS Jaya Medika</span>
-                </div>
-            </div>
-        </div>
-        <div class="bg-white p-4 w-full rounded-md text-center">
-            <div class="flex justify-between bg-gradient-to-tr from-red-medium to-red-medium rounded-md py-2 px-4 text-white font-bold text-md">
-                <div>
-                    <span>Donor Terakhir</span>
-                </div>
-            </div>
-
-            <div>
-                <div class="flex justify-between border-t text-sm font-normal mt-4 space-x-4">
-                    <div class="px-2 flex">
-                        <span>Sabtu, 07 Oktober 2023 </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                <div class="px-2">
-                    <span>18.00 WIB</span>
-                </div>
-            </div>
-
-            <div class="flex justify-between border-t-2 text-sm font-normal mt-4 space-x-4">
-                <div class="px-2">
-                    <span>RS Jaya Medika</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    </div>
     <div></div>
     <div class="max-w-md mx-auto bg-red-medium rounded-xl shadow-md overflow-hidden md:max-w-2xl m-5">
         <div class="p-8">

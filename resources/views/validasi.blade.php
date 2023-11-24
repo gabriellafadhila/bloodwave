@@ -36,10 +36,9 @@
         <div class="p-4 space-y-4">
             <!-- Dashboard -->
             <button>
-            <a href="{{ route ('admin')}}" aria-label="dashboard"
-                class="relative px-4 py-3 flex items-center space-x-4 rounded-lg text-red-medium bg-gradient-to-r from-cream-dark to-cream-medium">
-                <i class="fas fa-home text-red-medium"></i>
-                <span class="-mr-1 font-medium">Dashboard</span>
+            <a href="{{ route ('admin')}}" class="px-4 py-3 flex items-center space-x-4 rounded-md text-cream-medium group">
+                <i class="fas fa-home"></i>
+                <span>Dashboard</span>
             </a>
             </button>
     
@@ -53,10 +52,12 @@
 
             <!-- Validasi Riwayat -->
             <button>
-            <a href="{{ route ('validasi')}}" class="px-4 py-3 flex items-center space-x-4 rounded-md text-cream-medium group">
-                <i class="fas fa-exchange-alt"></i>
-                <span>Riwayat Donor</span>
+            <a href="{{ route ('validasi')}}" aria-label="dashboard"
+                class="relative px-4 py-3 flex items-center space-x-4 rounded-lg text-red-medium bg-gradient-to-r from-cream-dark to-cream-medium">
+                <i class="fas fa-exchange-alt text-red-medium"></i>
+                <span class="-mr-1 font-medium">Riwayat Donor</span>
             </a>
+
             </button>
 
 

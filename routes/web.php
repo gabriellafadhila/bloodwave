@@ -1,9 +1,11 @@
 <?php
 
+use App\Models\Artikel;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\RiwayatController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\ArtikelController;
+use App\Http\Controllers\RiwayatController;
 
 
 /*
@@ -17,11 +19,11 @@ use App\Http\Controllers\ProfilController;
 |
 */
 
-Route::middleware(['web'])->post('/simpan_data_riwayat', [RiwayatController::class, 'simpan_data_riwayat'])->name('simpan_data_riwayat');
+Route::post('/simpan_data_riwayat', [RiwayatController::class, 'simpan_data_riwayat'])->name('simpan_data_riwayat');
 Route::get('/riwayat', [RiwayatController::class, 'index'])->name('tampil_riwayat');
 Route::put('/riwayat/{id}/edit', [RiwayatController::class, 'edit_riwayat'])->name('edit_riwayat');
 Route::delete('/riwayat/{id}', [RiwayatController::class, 'hapus_riwayat'])->name('hapus_riwayat');
-Route::post('/simpan_data_riwayat', 'Controller@simpanDataRiwayat');
+Route::post('/simpan_data_riwayat', [RiwayatController::class ,'simpan_data_riwayat']);
 
 
 
@@ -51,7 +53,8 @@ Route::get('/notifikasi', function () {
 })->middleware('islogin')->name('notifikasi');
 
 Route::get('/letsread', function () {
-    return view('letsread');
+    $artikel = Artikel::with('artikelFile')->get();
+    return view('letsread', compact('artikel'));
 })->middleware('islogin')->name('letsread');
 
 Route::get('/event', function () {
@@ -59,5 +62,12 @@ Route::get('/event', function () {
 })->middleware('islogin')->name('event');
 
 Route::get('/admin', function () {
-    return view('admin');
+    $artikel = Artikel::all();
+    return view('admin', compact('artikel'));
 })->name('admin');
+
+Route::get('/validasi', function () {
+    return view('validasi');
+})->name('validasi');
+
+Route::resource('/artikel', App\Http\Controllers\ArtikelController::class);

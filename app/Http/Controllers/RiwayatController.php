@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\RiwayatDonor;
+use Exception;
 use App\Models\LokasiDonor;
 use App\Models\EvidenceFile;
-use Exception;
-use Illuminate\Auth\EloquentUserProvider;
+use App\Models\RiwayatDonor;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Auth\EloquentUserProvider;
 
 class RiwayatController extends Controller
 {
@@ -17,8 +18,10 @@ class RiwayatController extends Controller
     {
         $lokasiDonor = LokasiDonor::all();
         $riwayatDonor = RiwayatDonor::paginate(5);
-        //$riwayatDonor = RiwayatDonor::all();
-        return view('riwayat', compact('riwayatDonor', 'lokasiDonor'));
+        $riwayatTerbaru = RiwayatDonor::with(['lokasiDonor'])->where('id_user', Auth::user()->id)->where('tanggal_donor', '<=', date("Y-m-d"))->orderByDesc('tanggal_donor')->first();
+        $riwayatMenyusul = RiwayatDonor::with(['lokasiDonor'])->where('id_user', Auth::user()->id)->orderByDesc('tanggal_donor')->first();
+        $riwayatMenyusul->tanggal_donor = date('d-m-Y', strtotime($riwayatMenyusul->tanggal_donor) + (30 * 24 * 3600));
+        return view('riwayat', compact('riwayatDonor', 'lokasiDonor', 'riwayatTerbaru', 'riwayatMenyusul'));
     }
 
     public function evidenceFiles()

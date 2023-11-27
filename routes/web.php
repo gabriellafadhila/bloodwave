@@ -70,4 +70,5 @@ Route::get('/validasi', function () {
     return view('validasi');
 })->name('validasi');
 
+
 Route::resource('/artikel', App\Http\Controllers\ArtikelController::class);

@@ -37,6 +37,7 @@ class ArtikelController extends Controller
             $artikel = new Artikel;
             $artikel->judul = $judul;
             $artikel->isi = $isi;
+            $artikel->slug = Str::slug($judul);
             $artikel->created_at = $created_at;
             $artikel->sampul = "";
 

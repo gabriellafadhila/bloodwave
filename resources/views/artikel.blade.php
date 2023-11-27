@@ -52,7 +52,6 @@
             </a>
             </button>
 
-
             <!-- Validasi Riwayat -->
             <button>
             <a href="{{ route ('validasi')}}" class="px-4 py-3 flex items-center space-x-4 rounded-md text-cream-medium group">

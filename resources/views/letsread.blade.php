@@ -45,7 +45,7 @@
             <p class="leading-normal">{{ $artikelData->isi }}
             </p>
             <div class="flex flex-row items-center mt-4 text-black">
-            <div class="w-1/2 text-red-dark"> Baca selengkapnya </div>
+           {{-- <--baca <div class="w-1/2 text-red-dark"> Baca selengkapnya </div>--> --}}
                 </div>
             </div>
         </div>

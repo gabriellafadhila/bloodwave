@@ -53,22 +53,22 @@
             </button>
 
 
-            <!-- Validasi Riwayat -->
+            <!-- Validasi Riwayat
             <button>
             <a href="{{ route ('validasi')}}" class="px-4 py-3 flex items-center space-x-4 rounded-md text-cream-medium group">
                 <i class="fas fa-exchange-alt"></i>
                 <span>Riwayat Donor</span>
             </a>
-            </button>
+            </button>-->
 
 
-            <!-- Log Out -->
+            <!-- Log Out
             <button>
             <a href="#" class="px-4 py-3 flex items-center space-x-4 rounded-md text-cream-medium group">
                 <i class="fas fa-sign-out-alt"></i>
                 <span>Keluar</span>
             </a>
-            </button>
+            </button>-->
 
         </div>
     </div>
@@ -80,7 +80,7 @@
             <div class="bg-red-medium md:p-2 p-6 rounded-lg border border-red-dark mb-4 lg:mb-0 shadow-md lg:w-[35%]">
                 <div class="flex justify-center items-center space-x-5 h-full">
                     <div>
-                        <h2 class="text-4xl font-semibold text-cream-medium">Hi, {{ Auth::user()->nama ?? 'Admin' }}</h2>
+                        <h2 class="text-4xl font-semibold text-cream-medium">Hi, Admin!</h2>
                         <h6 class="font-semibold text-cream-medium">Lihat Update Hari Ini Yuk!</h6>
                     </div>
                 </div>
@@ -90,19 +90,19 @@
             <div class="bg-red-medium  p-4 rounded-lg xs:mb-4 max-w-full shadow-md lg:w-[65%]">
                 <!-- -->
                 <div class="flex flex-wrap justify-between h-full">
-                    <!-- Kontainer Artikel -->
+                    <!-- Kontainer Artikel 
                     <div
                         class="flex-1 bg-gradient-to-r from-cream-dark to-cream-medium rounded-lg flex flex-col items-center justify-center p-4 space-y-2 border border-cream-dark m-2">
                         <i class="fas fa-book text-red-dark text-4xl"></i>
                         <p class="text-red-dark">Artikel</p>
-                    </div>
+                    </div>-->
 
-                    <!-- Kontainer Riwayat Donor -->
+                    <!-- Kontainer Riwayat Donor
                     <div
                         class="flex-1 bg-gradient-to-r from-cream-dark to-cream-medium rounded-lg flex flex-col items-center justify-center p-4 space-y-2 border border-cream-dark m-2">
                         <i class="fas fa-exchange-alt text-red-dark text-4xl"></i>
                         <p class="text-red-dark">Validasi Riwayat Donor</p>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
